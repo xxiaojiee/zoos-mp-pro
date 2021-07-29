@@ -1,0 +1,10 @@
+<van-button class="btn" type="primary" block bind:tap="handleFeatchData">axios获取http数据</van-button>
+请求结果：
+<view style="height: 100px; overflow: scroll">{{result}}</view>
+
+<van-button class="btn" type="primary" block bind:tap="handleRouterSwitch" data-name="test">路由API切换</van-button>
+<van-button class="btn" type="primary" block bind:tap="handleRouterSwitch" data-name="img-test">图片显示测试</van-button>
+
+<router-link class="btn" to="test">
+    <van-button type="primary" block>omix store集成9</van-button>
+</router-link>
