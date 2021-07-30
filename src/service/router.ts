@@ -1,4 +1,4 @@
-import Router, { RouteConfig } from "cheers-mp-router";
+import Router, { RouteConfig } from "zoos-mp-router";
 
 const routeConfigList: RouteConfig[] = [
     { name: "home", path: "pages/tabbar/home/index", isTab: true },

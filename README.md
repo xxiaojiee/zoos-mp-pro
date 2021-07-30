@@ -27,24 +27,24 @@ npm run uat
 ```json
 {
     //开发时使用，会启动监听模式
-    "uat": "cheers-mp-service serve --mode uat --open", // 读取.env.uat文件的环境变量
-    "prd": "cheers-mp-service serve --open", // 读取.env 文件的环境变量
+    "uat": "zoos-mp-service serve --mode uat --open", // 读取.env.uat文件的环境变量
+    "prd": "zoos-mp-service serve --open", // 读取.env 文件的环境变量
 
     // 发布时使用，会压缩代码并自动上传代码作为体验版
-    "build:uat": "cheers-mp-service build --mode uat --upload",
-    "build:prd": "cheers-mp-service build --upload"
+    "build:uat": "zoos-mp-service build --mode uat --upload",
+    "build:prd": "zoos-mp-service build --upload"
 }
 ```
 
 ## 相关文档
 
-脚手架文档： https://cheers-mp.com
+脚手架文档： https://zoos-mp.com
 
-脚手架路由插件： https://github.com/bigmeow/cheers-mp/tree/master/packages/cheers-mp-plugin-router
+脚手架路由插件： https://github.com/xxiaojiee/zoos-mp/tree/master/packages/zoos-mp-plugin-router
 
 vant 小程序组件地址： https://youzan.github.io/vant-weapp/#/intro
 
-路由文档： https://github.com/bigmeow/cheers-mp-router#readme
+路由文档： https://github.com/xxiaojiee/zoos-mp-router#readme
 
 富文本框插件 https://jin-yufeng.github.io/Parser/#/
 

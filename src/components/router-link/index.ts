@@ -1,5 +1,5 @@
 import router from "@/service/router";
-import { Location } from "cheers-mp-router";
+import { Location } from "zoos-mp-router";
 
 /** 规范化处理传参 */
 function normalize(_to: Record<string, any> | string) {

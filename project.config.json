@@ -1,77 +1,81 @@
 {
-    "description": "项目配置文件",
-    "miniprogramRoot": "dist/",
-    "compileType": "miniprogram",
-    "libVersion": "2.18.1",
-    "projectname": "JK724.XCX.WechatShopping",
-    "setting": {
-        "urlCheck": false,
-        "es6": true,
-        "enhance": true,
-        "postcss": true,
-        "preloadBackgroundData": false,
-        "minified": true,
-        "newFeature": true,
-        "coverView": true,
-        "nodeModules": true,
-        "autoAudits": false,
-        "showShadowRootInWxmlPanel": true,
-        "scopeDataCheck": false,
-        "uglifyFileName": true,
-        "checkInvalidKey": true,
-        "checkSiteMap": false,
-        "uploadWithSourceMap": true,
-        "compileHotReLoad": false,
-        "lazyloadPlaceholderEnable": false,
-        "useMultiFrameRuntime": true,
-        "useApiHook": true,
-        "useApiHostProcess": true,
-        "babelSetting": {
-            "ignore": [],
-            "disablePlugins": [],
-            "outputPath": ""
-        },
-        "enableEngineNative": false,
-        "useIsolateContext": true,
-        "userConfirmedBundleSwitch": false,
-        "packNpmManually": false,
-        "packNpmRelationList": [],
-        "minifyWXSS": true,
-        "showES6CompileOption": false
+  "description": "项目配置文件",
+  "miniprogramRoot": "dist/",
+  "compileType": "miniprogram",
+  "libVersion": "2.18.1",
+  "projectname": "JK724.XCX.WechatShopping",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": true,
+    "checkInvalidKey": true,
+    "checkSiteMap": false,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
     },
-    "simulatorType": "wechat",
-    "simulatorPluginLibVersion": {},
-    "appid": "wx55f98dca94d09263",
-    "watchOptions": {
-        "ignore": ["node_modules", "dist/node_modules/**/**", "src/**/**"]
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "showES6CompileOption": false
+  },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "appid": "wx55f98dca94d09263",
+  "watchOptions": {
+    "ignore": [
+      "node_modules",
+      "dist/node_modules/**/**",
+      "src/**/**"
+    ]
+  },
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "folder",
+        "value": "node_modules"
+      },
+      {
+        "type": "regexp",
+        "value": "\\.ts$"
+      }
+    ]
+  },
+  "condition": {
+    "search": {
+      "list": []
     },
-    "packOptions": {
-        "ignore": [
-            {
-                "type": "folder",
-                "value": "node_modules"
-            },
-            {
-                "type": "regexp",
-                "value": "\\.ts$"
-            }
-        ]
+    "conversation": {
+      "list": []
     },
-    "condition": {
-        "search": {
-            "list": []
-        },
-        "conversation": {
-            "list": []
-        },
-        "plugin": {
-            "list": []
-        },
-        "game": {
-            "list": []
-        },
-        "gamePlugin": {
-            "list": []
-        }
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
     }
+  }
 }

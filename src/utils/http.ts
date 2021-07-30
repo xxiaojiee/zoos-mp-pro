@@ -5,7 +5,7 @@ import { Loading } from "./Loadding";
 axios.defaults.adapter = mpAdapter;
 
 const request = axios.create({
-    baseURL: process.env.CHEERS_MP_API,
+    baseURL: process.env.ZOOS_MP_API,
     loading: false
 } as MyHttp.RequestConfig);
 
