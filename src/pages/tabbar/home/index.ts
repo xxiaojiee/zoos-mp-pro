@@ -6,6 +6,7 @@ Page({
     },
     async handleFeatchData() {
         const data = await getAllType();
+        console.log("data1:", data);
         this.setData({
             result: JSON.stringify(data)
         });
